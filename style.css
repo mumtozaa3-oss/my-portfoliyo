@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+}
+
+body,html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: #081b29;
+   color: #ededed;
+
+
+}
+.project-pic{
+  margin-bottom: 10px;
+}
+img {
+  display: block;
+}
+
+.container {
+  width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.hero {
+background: #081b29;
+padding-bottom: 50px;
+}
+
+.header-box {
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* padding-block: 20px; */
+}
+
+header {
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ background-color: #081b29;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1)
+}
+
+.logo {
+text-decoration-line: none;
+color: #ffffff;
+font-family: "Audiowide";
+font-size: 45px;
+}
+
+.navbar-list {
+  color: #ffffff;
+list-style-type: none;
+display: flex;
+gap: 50px;
+padding: 0;
+position: sticky;
+}
+
+.navbar-link {
+text-decoration: none;
+color: white;
+font-family: "Quantico";
+font-size: 16px;
+/* border: 1px solid white; */
+/* border-radius: 10px; */
+padding: 10px 20px;
+}
+
+.navbar-link:hover {
+/* background-color: rgb(255, 255, 255); */
+transition: 0.3s;
+color: #0ef;
+}
+
+.myfam {
+border-radius: 100px;
+box-shadow: 10px 10px 100px #6b6b83;
+}
+
+.box-two {
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 72vh;
+border-radius: 53px;
+}
+
+.box-child {
+width: 500px;
+}
+
+.hsize {
+color: white;
+font-family: "Aubrey";
+font-size: 70px;
+font-weight: 800px;
+margin-block: 0;
+}
+
+.intro-about-myself {
+color: #cbd5e1;
+font-family: "Aubrey";
+font-size: 30px;
+margin-block: 0;
+padding-block: 20px;
+}
+
+.more-bout-me {
+text-decoration-line: none;
+color: #ffffff;
+border-radius: 5px;
+background: linear-gradient(90deg, #6366f1, #a855f7);
+/* background-color: #fff; */
+padding: 10px 35px;
+font-family: "Aubrey";
+font-size: 25px;
+}
+
+.myself-wrapper {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  background: linear-gradient(135deg, #38bdf8, #ec4899);
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+}
+
+.more-bout-me:hover {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+  transform: translateY(-2px);
+}
+
+.myself {
+/* border-radius: 10px; */
+border-radius: inherit;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  transition: 1s;
+}
+
+.myself:hover {
+transform: scale(1.06);
+transition: 1.05s;
+}
+
+.box-three {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-block: 200px;
+}
+
+.box-child-two {
+width: 400px;
+}
+
+.hsize-two {
+font-family: "Aubrey";
+font-size: 70px;
+}
+
+.myfam {
+  object-fit: cover;
+}
+
+.intro-about-myfam {
+font-family: "Aubrey";
+font-weight: 100px;
+font-size: 30px;
+}
+
+.more-bout-myfam {
+text-decoration-line: none;
+color: white;
+background: linear-gradient(90deg, #6366f1, #a855f7);
+padding: 10px 25px;
+border-radius: 10px;
+font-family: "Aubrey";
+font-weight: 50px;
+font-size: 20px;
+}
+
+.more-bout-myfam:hover {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+  transform: translateY(-2px);
+}
+
+
+.hsize-three {
+font-family: "Aubrey";
+font-size: 70px;
+margin-left: 350px;
+color: #ffffff;
+}
+
+.list {
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.card {
+border: 1px solid gray;
+margin-block: 20px;
+border-radius: 20px;
+width: 570px;
+height: 400px;
+}
+
+.strong {
+font-family: "Aubrey";
+font-size: 30px;
+/* margin-top: 30px; */
+padding-left: 10px;
+}
+
+.gray-text {
+font-family: "Aubrey";
+font-size: 20px;
+padding-left: 10px;
+}
+
+.more-bout-my-projects {
+text-decoration-line: none;
+background: linear-gradient(270deg, #6366f1, #a855f7);
+color: white;
+padding: 15px 50px;
+border-radius: 10px;
+font-family: "Aubrey";
+font-size: 30px;
+font-weight: 50px;
+margin-left: 490px;
+}
+
+.more-bout-my-projects:hover {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+  transform: translateY(-2px);
+}
+
+
+.project-pic {
+margin-left: 10px;
+margin-top: 10px;
+border-radius: 30px;
+}
+
+
+.site-footer {
+  background-color: #081b29;
+  padding-bottom: 40px;
+  }
+  
+.footer-top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+    
+    .footer-logo {
+    text-decoration-line: none;
+    font-family: "Audiowide";
+    font-size: 35px;
+    color: #ffffff;
+    }
+    
+    .footer-list {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    }
+
+.footer-list-two {
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+} 
+
+.link {
+text-decoration-line: none;
+font-weight: 500;
+font-family: "Quantico";
+
+}
+
+#loader{
+position: fixed;
+top:0;
+left:0;
+width:100%;
+height:100vh;
+background:black;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+z-index:1000;
+}
+
+.hacker-text{
+color:#ffffff;
+font-size:28px;
+font-family: "Courier New", monospace;
+/* text-align:center; */
+/* margin-top:120px; */
+text-shadow:
+0 0 5px #0099ff,
+0 0 10px #0099ff,
+0 0 20px #0099ff,
+0 0 40px #0099ff;
+animation: hackerGlow 2s infinite alternate;
+}
+
+@keyframes hackerGlow{
+
+from{
+text-shadow:
+0 0 5px #0099ff,
+0 0 10px #0099ff;
+}
+
+to{
+text-shadow:
+0 0 20px #0099ff,
+0 0 40px #0099ff,
+0 0 60px #0099ff;
+}
+
+}
+
+.footer-list i:hover {
+  color: #0ef;
+}
+
+.footer-list i {
+  color: white;
+  transition: 0.3s;
+}

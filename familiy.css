@@ -1,0 +1,214 @@
+* {
+box-sizing: border-box;
+}
+
+body,html{
+  scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+background: radial-gradient(circle at top right, #1e1b4b,#081b29  50%),
+radial-gradient(circle at bottom left, #4c1d95, #081b29 50%);
+background-attachment: fixed;
+color: #ffffff;
+font-family: 'Quantico', sans-serif;
+}
+
+img {
+display: block;
+}
+
+.container {
+width: 1240px;
+margin-inline: auto;
+padding-inline: 20px;
+}
+
+.section {
+/* background-image: url("./src/bacround\ family.png"); */
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 100px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  }
+
+  
+  .logo {
+  text-decoration-line: none;
+  color: #ffffff;
+  font-family: "Audiowide";
+  font-size: 45px;
+  /* text-shadow: 0 0 10px rgba(74, 222, 128, 0.5); */
+  }
+  
+  .navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  }
+  
+  .navbar-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Quantico";
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  }
+  
+  .navbar-link:hover {
+  color: #0ef;
+  /* background-color: #4ade80;
+  background: rgba(74, 222, 128, 0.05); */
+  }
+
+
+.myfam-info {
+background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 40px;
+  width: 800px;
+  margin: 80px auto;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.6;
+}
+
+.family-sticker {
+margin-left: 350px;
+}
+
+
+
+.box {
+margin-top: 150px;
+}
+
+.family-member-card {
+display: flex;
+align-items: center;
+gap: 60px;
+background: rgba(255, 255, 255, 0.02);
+  margin-block: 50px;
+  padding: 40px;
+  border-radius: 40px;
+  border-left: 5px solid #0ef;
+}
+
+.family-member-desc {
+width: 450px;
+}
+
+.strong {
+font-family: "Aubrey";
+font-size: 60px;
+color: #0ef;
+margin-bottom: 15px;
+display: block;
+}
+
+.description {
+font-family: "Aubrey";
+font-size: 40px;
+color: #cbd5e1;
+}
+
+
+.album-text {
+font-family: "Aubrey";
+font-size: 65px;
+text-align: center;
+margin-block: 100px 50px;
+background: linear-gradient(to right, #8475da, #38bdf8);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.photo-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+padding: 0;
+}
+
+.family-album {
+margin: 0;
+}
+
+.fam-pic {
+  width: 100%;
+  height: 467px;
+  object-fit: cover;
+border-radius: 35px;
+filter: grayscale(30%);
+transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.fam-pic:hover {
+filter: grayscale(0%);
+transform: scale(1.03) rotate(1deg);
+border-color: #0ef;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* .site-footer {
+background-image: url("./src/footer.png");
+} */
+
+.footer-top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  padding: 40px 0;
+  /* border-top:1px dashed rgba(255, 255, 255, 0.2) ; */
+  }
+  
+  .footer-logo {
+  text-decoration: none;
+  font-family: "Audiowide";
+  font-size: 30px;
+  color: #ffffff;
+  }
+  
+.footer-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  }
+
+  .footer-list-two {
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+} 
+
+.footer-list i {
+  color: #ffffff;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.footer-list i:hover {
+  color: #0ef;
+  transform: translateY(-5px);
+}
+
+.link {
+text-decoration-line: none;
+font-weight: 500;
+font-family: "Quantico";
+}

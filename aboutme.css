@@ -1,0 +1,181 @@
+* {
+box-sizing: border-box;
+}
+
+body,html{
+  scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+background-color:#081b29 ;
+color: white; 
+}
+
+img {
+display: block;
+}
+
+.container {
+width: 1240px;
+margin-inline: auto;
+padding-inline: 20px;
+}
+
+.section-one {
+/* background-image: url("./src/formyself.png"); */
+background-color: #081b29; 
+/* background-repeat: no-repeat;
+background-size: cover; */
+padding-bottom: 170px;
+}
+
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #081b29;
+  /* box-shadow: 0 4px 15px rgba(0,0,0,0.5); */
+  border-bottom: 1px solid #1f2937;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  }
+  
+  .logo {
+  text-decoration-line: none;
+  color: rgb(255, 255, 255);
+  font-family: "Audiowide";
+  font-size: 50px;
+  }
+  
+  .navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  }
+  
+  .navbar-link {
+  text-decoration-line: none;
+  color: white;
+  font-family: "Quantico";
+  font-size: 18px;
+  /* border: 1px solid rgba(255,255,255,0.3); */
+  border-radius: 10px;
+  padding: 8px 18px;
+  transition: 0.4s;
+  }
+  
+  .navbar-link:hover {
+    color: #0ef;
+  /* background-color: transparent; */
+  /* border-color: #4ade80; */
+  /* box-shadow: 0 0 15px rgba(74, 175, 222, 0.4); */
+  /* color: #ffffff; */
+  }
+
+
+.bout-me-div {
+width: 700px;
+text-align: center;
+margin-left: 300px;
+margin-top: 100px;
+}
+
+.bout-me {
+font-family: "Merienda";
+color: #fff;
+font-size: 28px;
+line-height: 1.5;
+}
+
+.my-hobby {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.desc-of-me-hobby-div {
+width: 500px;
+}
+
+.desc-of-me-hobby-text {
+font-family: "Merienda";
+font-size: 30px;
+color: #f8f8f8;
+}
+
+.desc-of-me-hobby-text-other {
+font-family: "Merienda";
+font-size: 30px;
+color: #fcfcfc;
+text-align: center;
+width: 400px;
+margin-left: 30px;
+}
+
+img {
+margin-top: 100px;
+border-radius: 15px;
+box-shadow: 0 0 50px rgba(168, 85, 247, 0.4); 
+transition: 0.5s;
+}
+
+img:hover {
+transform: scale(1.05);
+box-shadow: 0 0 80px rgba(56, 189, 248, 0.5);
+}
+
+/* .site-footer {
+  background-image: url("./src/footer.png");
+  } */
+  
+  .footer-top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    }
+    
+    .footer-logo {
+    text-decoration-line: none;
+    font-family: "Audiowide";
+    font-size: 35px;
+    }
+    
+    .footer-list {
+    list-style-type: none;
+    text-decoration-line: none;
+    display: flex;
+    color: #f3f3f3;
+    font-family: "Audiowide";
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    }
+
+.footer-list-two {
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+} 
+
+.footer-list i {
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-list i:hover {
+  color: #0ef;
+}
+
+.link {
+text-decoration-line: none;
+font-weight: 500;
+font-family: "Quantico";
+}
